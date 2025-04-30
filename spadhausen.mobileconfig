@@ -13,11 +13,11 @@
 					<key>APN</key>
 					<string>mobile.it</string>
 					<key>AllowedProtocolMask</key>
-					<integer>1</integer> <!-- IPv4 -->
+					<integer>1</integer>
 					<key>AllowedProtocolMaskInRoaming</key>
-					<integer>1</integer> <!-- IPv4 in roaming -->
+					<integer>1</integer>
 					<key>DefaultProtocolMask</key>
-					<integer>1</integer> <!-- IPv4 default -->
+					<integer>1</integer>
 					<key>Type</key>
 					<string>default,supl,mms,dun</string>
 					<key>Username</key>
@@ -30,6 +30,21 @@
 					<string></string>
 				</dict>
 			</array>
+
+			<key>AttachAPN</key>
+			<dict>
+				<key>Name</key>
+				<string>Spadhausen</string>
+				<key>APN</key>
+				<string>mobile.it</string>
+				<key>AuthenticationType</key>
+				<string>PAP</string>
+				<key>Username</key>
+				<string></string>
+				<key>Password</key>
+				<string></string>
+			</dict>
+
 			<key>PayloadDescription</key>
 			<string>Configures cellular data settings</string>
 			<key>PayloadDisplayName</key>
